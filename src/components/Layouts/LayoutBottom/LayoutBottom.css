@@ -1,0 +1,5 @@
+.tooMany {
+  position: absolute;
+  color: red;
+  z-index: 700;
+}

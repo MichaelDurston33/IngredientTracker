@@ -1,0 +1,40 @@
+
+
+.RememberBlock {
+  padding-top: 15px;
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  flex-grow: 1;
+  color: #071B30;
+  font-size: 3vh;
+  transition: font-size 0.3s;
+}
+
+.RememberBlock:hover {
+    font-size: 4vh;
+}
+
+.clickedRememberBlock {
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  flex-grow: 1;
+  color: #071B30;
+  font-size: 3vh;
+  animation-name: clicked;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes clicked {
+    from {font-size: 3vh;
+    color: #071B30;
+    opacity: 1;
+    padding-top: 15px;}
+    to {font-size: 3vh;
+    color: grey;
+    opacity: 0.5;
+    height: 4vh;
+    background-color: #f7e4d3;}
+}

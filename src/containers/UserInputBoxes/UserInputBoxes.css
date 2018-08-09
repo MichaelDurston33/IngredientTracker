@@ -1,0 +1,38 @@
+.wrapperDiv {
+  width: 53vh;
+  height: 10vh;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -60%);
+  z-index: 500;
+}
+
+
+.inputBox {
+  width: 50vh;
+  height: 10vh;
+  border: 5px solid #071B30;
+  display: inline;
+  font-size: 24px;
+  rows: 10;
+  position: absolute;
+  color: #071B30;
+  background: transparent;
+  resize:none;
+}
+
+.SubmitButton{
+  height: 11.2vh;
+  width: 20px;
+  color: white;
+  background-color: #071B30;
+  border: 5px solid #071B30;
+  position: absolute;
+  left: 96.5%;
+}
+
+::placeholder {
+    color: #071B30;
+    opacity: 0.7;
+}

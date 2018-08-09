@@ -1,0 +1,48 @@
+@keyframes bounce {
+  0%       { top: 90%; }
+  25%, 75% { top: 87%; }
+  50%      { top: 91%; }
+  100%     { top: 90%;}
+}
+
+
+@keyframes example {
+    from {opacity: 0;
+    top: 85%;}
+    to {opacity: 1;
+    top: 90%;}
+}
+
+@keyframes exit {
+  from {opacity: 1;
+  top: 90%;}
+  to {opacity: 0;
+  top: 92%;}
+}
+
+.ResetButton {
+  position: fixed;
+  top: 90%;
+  left: 7%;
+  z-index: 200;
+  opacity: 0;
+  border: none;
+  background-color: #f7e4d3;
+  color: #071B30;
+  width: 70px;
+  height: 25px;
+  animation: bounce 4s infinite, exit 0.3s ease-out;
+}
+
+.ghostResetButton {
+  position: fixed;
+  top: 90%;
+  left: 7%;
+  z-index: 200;
+  color: #071B30;
+  border: none;
+  background-color: #f7e4d3;
+  width: 70px;
+  height: 25px;
+  animation: example 0.7s, bounce 4s infinite;
+}

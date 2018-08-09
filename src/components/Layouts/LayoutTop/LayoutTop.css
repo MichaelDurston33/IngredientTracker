@@ -1,0 +1,10 @@
+.Title {
+  color: #071B30;
+  font-size: 9vh;
+  position: absolute;
+  z-index: 500;
+  letter-spacing: 4px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+}
